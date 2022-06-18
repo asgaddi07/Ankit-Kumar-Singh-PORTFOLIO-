@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #111;
+    overflow: hidden;
+    padding-left: 35rem;
+}
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+.heading span{
+    color: yellow;
+}
+
+.title{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+.title span{
+    color: yellow;
+}
+
+.head{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.head span{
+    color: yellow;
+}
+.pro{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.pro span{
+    color: yellow;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .5rem solid;
+}
+
+header .user .nm{
+    font-size:2rem;
+    color: #fff;
+}
+
+header .user .jb{
+    font-size:0.5rem;
+    color: #fff;
+}
+
+header .nv{
+    width: 100%;
+}
+header .nv ul{
+    list-style: none;
+}
+
+header .nv ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    text-decoration: none;  
+}
+header .nv ul li a:hover{
+    background-color:yellowgreen;
+}
+.infoContainer{
+    height: 100%;
+    width: 100%;
+    margin: 90px auto;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 3em;
+    color: white;
+    text-align: center;
+}
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fiea Sans' sans-serif;
+    color: white;
+    text-align: center;
+}
+.about{
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: 'Fiea Sans' sans-serif;
+    color: white;
+    text-align: center;
+}
+.Details .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Details .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Details .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Details .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+table,th,td{
+    border: 1px solid yellow;
+    border-collapse: collapse;
+}
+td{
+    color: white;
+    padding: 1rem;
+}
+th{
+    color: white;
+    padding: 1rem;
+}
+table{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+#lis li{
+    margin: 0 9rem;
+    color: white;
+    font-size: medium;
+    padding: .5rem 1rem;
+}
+.Project .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Project .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Project .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Project .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+.Contact{
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Contact form{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Fill{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.Fill input[type="text"], .Fill input[type="email"]{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 2px solid rgba(0,0,0,0.2);
+    padding: 0px 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+.Fill textarea{
+    width: 100%;
+    height: 120px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    border: 2px solid rgba(0,0,0,0.2);
+    padding: 2px 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+.placeholder{
+    font-size: 16px;
+}
+
+.buttons{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(129, 199, 17);
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+     color : dodgerblue;
+}
+.alert{
+    width: 100%;
+    background: rgb(207, 174, 27);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}
+
