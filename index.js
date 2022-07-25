@@ -157,8 +157,7 @@ function setActiveStyle(color){
     for(let i = 0; i<totalLinks; i++){
         if(color === links[i].getAttribute("title")){
             links[i].removeAttribute("disabled");
-            chn=links[i];
-            document.body.className="chn";
+            chn=links[i]; 
         }
         else{
             links[i].setAttribute("disabled","true");

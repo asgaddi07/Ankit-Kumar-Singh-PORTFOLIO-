@@ -875,6 +875,7 @@ body.dark label{
     .section .container{
         padding-top: 10px;
         padding-left: 50px;
+        padding-right: 50px;
     }
     .aside .nav-toggler{ 
         display: -o-flex;
