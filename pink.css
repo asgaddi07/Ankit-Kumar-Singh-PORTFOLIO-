@@ -1,0 +1,41 @@
+
+/* pink style */ 
+.aside .logo a::before{
+    border-top: 4px solid #ec1839;
+    border-left: 4px solid #ec1839;
+}
+.aside .logo a::after{
+    border-bottom: 4px solid #ec1839;
+    border-right: 4px solid #ec1839;
+} 
+  .lightbox .lightbox-controls  .fas,
+ .boxC .boxC-filter button.active,
+.boxC .boxC-items .port-info .icon .fas,
+.aside .nav li a:hover, 
+body.dark .aside .nav li a:hover,
+body.dark .aside .nav li a.active,
+body.dark .boxC .boxC-filter button.active,
+.aside .nav li a.active,
+body.dark .style-switcher h4,
+body.dark .style-switcher h5,
+.style-switcher h4,
+body.dark .style-switcher .toggle-switcher .fas,
+.style-switcher .toggle-switcher .fas,
+.style-switcher h5{
+    color: #ec1839;
+} 
+.boxB .boxB-item .boxB-item-inner:hover, 
+.btn,
+.section-title h2::after,
+.section-title h2::before,
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-links a{
+    background-color: #ec1839;
+}
+body.dark .boxC .boxC-filter button.active,
+.boxC .boxC-filter button.active{
+    border-color: #ec1839;
+}
+

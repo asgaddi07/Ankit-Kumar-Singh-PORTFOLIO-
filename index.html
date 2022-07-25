@@ -2,212 +2,652 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-    <title>Ankit Kumar Singh |Software Developer</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Kumar Singh | Java Software Developer</title>  
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
 
+
+    <!-- Live Style Switcher -->
+    <link rel="stylesheet" class="alternate-style" title="pink" href="pink.css" disabled >
+    <link rel="stylesheet" class="alternate-style" title="blue" href="blue.css" >
+    <link rel="stylesheet" class="alternate-style" title="orange" href="orange.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="yellow" href="yellow.css" disabled>
+    <link rel="stylesheet" class="alternate-style" title="green" href="green.css" disabled>
 </head>
 
-<body>
-    <br>
-    <header>
-        <div class="user">
-            <img src="photo.jpg">
-            <h5 class="nm">Ankit Kumar Singh</h5>
-            <p class="jb" style="font-size: 2rem;">Student</p>
-        </div>
-        <nav class="nv">
-            <ul>
-                <li><a href="#Details">Details</a></li>
-                <li><a href="#Hobby & Interest">Hobby & Interest</a></li>
-                <li><a href="#Education">Education</a></li>
-                <li><a href="#Technical Skills">Technical Skills</a></li>
-                <li><a href="#Personal Skills">Personal Skills</a></li>
-                <li><a href="#Certification">Certification</a></li>
-                <li><a href="#Project">Project</a></li>
-                <li><a href="#Extra Activity">Extra Activity</a></li>
-                <li><a href="#Contact Us">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="infoContainer">
-        <div class="devInfo">
-            <div class="hello">Hii, I'm</div>
-            <div class="name">Ankit kumar Singh</div>
-            <div class="about">Software developer</div>
-            <div class="moreabout">
-                Software Developer with good problem solving, leadership and creative skills.<br>
-                Always looking for learn new skills and technology.
+<body> 
+    <div class="main-container">
+        <!-- Aside  -->
+        <div class="aside">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#">Java Software Developer</a>
             </div>
-    <section class="Details" id="Details">
-        <h1 class="heading"><span>Details about me</span></h1>
-        <div class="Row">
-            <div class="det">
-                <h3><span>Name: </span>Ankit Kumar Singh.</h3>
-                <h3><span>Mother's Name: </span>Baby Devi.</h3>
-                <h3><span>Father's Name: </span>Anil Singh.</h3>
-                <h3><span>D.O.B.: </span>13-07-2001.</h3>
-                <h3><span>Gender: </span>Male.</h3> 
-                <h3><span>Languages Known: </span>English | Hindi .</h3>
-                <h3><span>Address: </span> Nabinagar, Aurangabad, BIHAR - 824301.</h3>
-                <h3><span>Email:</span><a href="mailto:ankit_singh@outlook.in" target="_blank">ankit_singh@outlook.in</a></h3>
-                <h3><span>GitHub:</span><a href="https://www.github.com/asgaddi07" target="_blank">https://www.github.com/asgaddi07</a></h3>
-                <h3><span>Linkdln: </span><a href="https://www.linkedin.com/in/asgaddi07" target="_blank">https:www.linkedin.com/in/asgaddi07</a></h3>
+            <!-- Nav Toggler Button -->
+            <div class="nav-toggler">
+                <span></span>
             </div>
-        </div>
-        </section>
 
-        <section class="Hobby & Interest" id="Hobby & Interest">
-            <h1 class="heading"><span>Hobby And Interest</span></h1>
-                <div>
-                    <ul id="lis">
-                        <li>Cricket .</li>
-                        <li>Chess.</li>
-                        <li>Explore Things.</li>
-                        <li>Reading.</li>
-                        <li>Bussiness.</li>
-                        <li>Yoga.</li>
-                        <li>Software.</li>
-                        <li>Coding.</li>
-                    </ul>
+            <!-- Navigation -->
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#education"><i class="fa fa-graduation-cap" ></i> Education</a></li>
+                <li><a href="#technicalSkills"><i class="fa fa-code"></i> Technical Skills</a></li>
+                <li><a href="#certification"><i class="fa fa-certificate"></i> Certification</a></li>
+                <li><a href="#project"><i class="fa fa-laptop"></i> Project</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> contact</a></li>
+            </ul> 
+        </div>
+        <!-- Aside End -->
+        <!-- Main Content Start-->
+        <div class="main-content">
+            <!-- Home Section Start -->
+            <section class="home section active" id="home">
+                <div class="container">
+                    <div class="intro">
+                        <img src="photo.jpg" alt="profile" class="shadow-dark">
+                        <h1> Hello dear, I'm<br>Ankit kumar Singh </h1>
+                        <p> Software Developer with good problem solving, leadership and creative skills .
+                            Always looking to upgrade or learn new skills and technology.</p>
+                        <div class="social-links">
+                            <a href="https://www.github.com/asgaddi07" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="motherlto:ankit_singh@outlook.in" target="_blank"><i class="fa fa-envelope"></i></a>
+                            <a href="https://www.linkedin.com/in/asgaddi07" target="_blank"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Other Details</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Item Start -->
+                        <div class="boxA-item padd-15">
+                            <div class="boxA-item-inner shadow-dark">
+                                <div class="boxA-info">
+                                    <h4 class="boxA-title"> Personal Details </h4>
+                                    <p class="boxA-desc">
+                                        <ul>
+                                            <li><span>Name: </span>Ankit Kumar Singh.</li>
+                                            <li><span>Mother's Name: </span>Baby Devi.</li>
+                                            <li><span>Father's Name: </span>Anil Singh.</li>
+                                            <li><span>D.O.B.: </span>13-07-2001.</li>
+                                            <li><span>Gender: </span>Male.</li>
+                                            <li><span>Languages Known: </span>English | Hindi .</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxA-item padd-15">
+                            <div class="boxA-item-inner shadow-dark">
+                                <div class="boxA-info">
+                                    <h4 class="boxA-title"> Hobby & Interest </h4>
+                                    <p class="boxA-desc">
+                                        <ul>
+                                            <li>Politics.</li>
+                                            <li>Learning | Chess.</li>
+                                            <li>Cricket | Sudoku.</li>
+                                            <li>Software | Coding.</li>
+                                            <li>Explore Things | Bussiness.</li>
+                                            <li>Yoga | Exercise.</li>
+                                         </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxA-item padd-15">
+                            <div class="boxA-item-inner shadow-dark">
+                                <div class="boxA-info">
+                                    <h4 class="boxA-title"> Personal Skills </h4>
+                                    <p class="boxA-desc">
+                                        <ul>
+                                            <li>Decision Making.</li>
+                                            <li>Management & Coordination.</li>
+                                            <li>Team Leadership.</li>
+                                            <li>Good at networking and interpersonal skills.</li>
+                                            <li>Time Management and dependability or Able to work with deadlines.</li>
+                                            <li>Good collaboration and co-ordination skills.</li>
+                                            <li>Strategic Thinker/Able to work in a team or Focussed at work.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item End -->
+                    </div> 
                 </div>
             </section>
+            <!-- Home section End -->
 
-    <section class="Education" id="Education">
-        <h1 class="title"><span>Education</span></h1><br><br><br>
-        <table>
-            <tr>
-                <th>Course</th>
-                <th>Name of the institude</th>
-                <th>Session</th>
-                <th>Percentage/CGPA</th>
-            </tr>
-            <tr>
-                <td>UNDERGRADUATE</td>
-                <td> Chandigarh University, Gharuan, Mohali, PUNJAB, 140413.</td>
-                <td>2019-2023</td>
-                <td>6.77 CGPA</td>
-            </tr>
-            <tr>
-                <td>INTERMEDIATE</td>
-                <td>D.A.V Public School, Sector-04, Bokaro Stell City, JHARKHAND, 827004.</td>
-                <td>2017-2019</td>
-                <td>62%</td> 
-    <section class="Technical Skills" id="Technical Skills">
-        <h1 class="head"><span>Technical Skills</span></h1>
-        <div>
-            <ul id="lis">
-                <li>Java/C++/C.</li> 
-                <li>HTML/JSP, CSS, JavaScript.</li>
-                <li>DSA.</li>
-                <li>Hibernate.</li>
-                <li>BootStrap.</li>
-                <li>SQL.</li>
-                <li>GitHub.</li>
-            </ul>
+            <!-- Education Section Start-->
+            <section class="about section" id="education">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Education</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Item Start -->
+                        <div class="boxA-item padd-15">
+                            <div class="boxA-item-inner shadow-dark">
+                                <div class="boxA-info">
+                                    <h4 class="boxA-title"> UNDERGRADUATE </h4>
+                                    <p class="boxA-desc">
+                                        <ul>
+                                            <li><span> Name of the institute: </span> Chandigarh University,
+                                                Gharuan, Mohali, PUNJAB, 140413. </li>
+                                            <li><span> Session: </span>2019-2023. </li>
+                                            <li><span> Percentage/CGPA: </span> 6.96 CGPA . </li> 
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxA-item padd-15">
+                            <div class="boxA-item-inner shadow-dark">
+                                <div class="boxA-info">
+                                    <h4 class="boxA-title"> INTERMEDIATE </h4>
+                                    <p class="boxA-desc">
+                                        <ul>
+                                            <li><span> Name of the institute: </span> Chandigarh University,
+                                                Gharuan, Mohali, PUNJAB, 140413. </li>
+                                            <li><span> Session: </span>2019-2023. </li>
+                                            <li><span> Percentage/CGPA: </span> 6.96 CGPA . </li> 
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxA-item padd-15">
+                            <div class="boxA-item-inner shadow-dark">
+                                <div class="boxA-info">
+                                    <h4 class="boxA-title"> MATRICULATION </h4>
+                                    <p class="boxA-desc">
+                                        <ul>
+                                            <li><span> Name of the institute: </span> D.A.V Public School,
+                                                Nabinagar, Aurangabad, BIHAR, 824301. </li>
+                                            <li><span> Session: </span>2019-2023.</li>
+                                            <li><span> Percentage/CGPA: </span> 9.8 CGPA.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item End -->
+                    </div>
+                </div> 
+            </section>
+            <!-- Education Section End -->
+
+            <!-- Technical Skills Section Start -->
+            <section class="boxB section" id="technicalSkills">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Techinical Skills</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <!-- Item Start -->
+                        <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="java-icon.png" alt="Java" width="60px" height="60px" />
+                                </div>
+                                <h4>Java</h4> 
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="dsa-icon.webp" alt="Dsa" width="60px" height="60px" /></div>
+                                <h4>DSA</h4> 
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="jspServlet-icon.png" alt="Jsp & Servlet" width="70px"
+                                        height="50px" /></div>
+                                <h4>Jsp & Servlet</h4> 
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                       <!-- Item Start -->
+                        <!-- <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="jdbc-icon.png" alt="Jdbc" width="60px" height="60px" />
+                                </div>
+                                <h4>Jdbc</h4> 
+                            </div>
+                        </div> -->
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <!-- <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="hibernate-icon.png" alt="Hibernate" width="60px"
+                                        height="60px" /></div>
+                                <h4>Hibernate</h4> 
+                            </div>
+                        </div> -->
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <!-- <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="spring-icon.png" alt="Spring" width="60px" height="60px" />
+                                </div>
+                                <h4>Spring</h4> 
+                            </div>
+                        </div> -->
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <!-- <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="Selenium-icon.png" alt="Selenium" width="60px"
+                                        height="60px" /></div>
+                                <h4>Selenium</h4> 
+                            </div>
+                        </div> -->
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="sql-icon.png" alt="Sql" width="60px" height="60px" /></div>
+                                <h4>Sql</h4> 
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="manualTest-icon.png" alt="Manual Testing" width="60px"
+                                        height="60px" /></div>
+                                <h4>Manual Testing</h4> 
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="gitGitHub-icon.png" alt="Git & GitHub" width="60px"
+                                        height="60px" /></div>
+                                <h4>Git & GitHub</h4> 
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <!-- <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="reactJs-icon.png" alt="ReactJs" width="60px"
+                                        height="60px" /></div>
+                                <h4>ReactJs</h4> 
+                            </div>
+                        </div> -->
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <!-- <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="nodeJs-icon.png" alt="NodeJs" width="60px" height="60px" />
+                                </div>
+                                <h4>NodeJs</h4> 
+                            </div>
+                        </div> -->
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="htmlCssJs-icon.png" alt="Html, Css & JavaScript"
+                                        width="60px" height="60px" /></div>
+                                <h4>Html, Css & JavaScript</h4> 
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="c-icon.png" alt="C" width="60px" height="60px" /></div>
+                                <h4>c</h4> 
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxB-item padd-15">
+                            <div class="boxB-item-inner">
+                                <div class="icon"><img src="c++-icon.png" alt="C++" width="60px" height="60px" /></div>
+                                <h4>C++</h4> 
+                            </div>
+                        </div>
+                        <!-- Item End --> 
+
+                    </div>
+                </div>
+            </section>
+            <!--Technical skills section end -->
+
+            <!-- Certification section -->
+            <section class="boxC section" id="certification">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Certification</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="boxC-filter padd-15">
+                            <button type="button" class="active" data-filter="all">All</button>
+                            <button type="button" data-filter="fullStack">Full-Stack Development</button>
+                            <button type="button" data-filter="javaDsa">Java & Dsa</button>
+                            <button type="button" data-filter="other">other</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- Item Start -->
+                        <div class="boxC-items padd-15" data-category="fullStack">
+                            <div class="inner-boxC shadow-dark">
+                                <div class="port-img">
+                                    <img src="Full Stack Developer.png" alt="Full-Stack Development">
+                                </div>
+                                <div class="port-info">
+                                    <h4>Full-Stack Development</h4>
+                                    <div class="icon">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Full-Stack Development,<br /><i>Kodnest</i>.</h3>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxC-items padd-15" data-category="javaDsa">
+                            <div class="inner-boxC shadow-dark">
+                                <div class="port-img">
+                                    <img src="javaDecision.jpg" alt="Java Decision Programming">
+                                </div>
+                                <div class="port-info">
+                                    <h4>Java Decision Programming,Project</h4>
+                                    <div class="icon">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Java Decision Programming,<br /><i>Coursera</i>.</h3>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxC-items padd-15" data-category="javaDsa">
+                            <div class="inner-boxC shadow-dark">
+                                <div class="port-img">
+                                    <img src="DSA.jpg" alt="DSA">
+                                </div>
+                                <div class="port-info">
+                                    <h4>DSA</h4>
+                                    <div class="icon">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Problem Solving With Data Structures & Algorithms,<br /><i>Chandigarh University</i>.
+                            </h3>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxC-items padd-15" data-category="other">
+                            <div class="inner-boxC shadow-dark">
+                                <div class="port-img">
+                                    <img src="gitGitHub.jpg" alt="Git & GitHub">
+                                </div>
+                                <div class="port-info">
+                                    <h4>Git & GitHub</h4>
+                                    <div class="icon">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Git & GitHub,<br /><i>Internshala</i>.</h3>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxC-items padd-15" data-category="other">
+                            <div class="inner-boxC shadow-dark">
+                                <div class="port-img">
+                                    <img src="htmlCssJs.jpg" alt="Html, Css & JavaScript">
+                                </div>
+                                <div class="port-info">
+                                    <h4>Html, Css & JavaScript</h4>
+                                    <div class="icon">
+                                        <i class="fas fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Programming Foundations with JavaScript, HTML and CSS,<br /><i>Coursera</i>.</h3>
+                        </div>
+                        <!-- Item End -->
+
+                    </div>
+                </div>
+            </section>
+            <!-- Certification section end -->
+
+            <!-- Project section start -->
+            <section class="boxA section" id="project">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Project</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Item Start -->
+                        <div class="boxA-item padd-15">
+                            <div class="boxA-item-inner shadow-dark">
+                                <div class="boxA-info">
+                                    <h4 class="boxA-title">Ecommerce Website | Web Application</h4>
+                                    <p class="boxA-desc">
+                                        <span>Role: </span>Ankit Kumar Singh.(Developed all things.)<br />
+                                        <span>Description: </span>User can login/create account. And search their
+                                        product for buying.
+                                        Order the productes. The admin can add,edit,delete the product.<br />
+                                        <span>Technology:</span>Java, Html, CSS, JavaScript, BootStrap, Hibernate,
+                                        MySql.<br />
+                                        <span>Links:</span><a href="https://github.com/asgaddi07/Ecommerce"
+                                            target="_blank">GitHub Project Link</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxA-item padd-15">
+                            <div class="boxA-item-inner shadow-dark">
+                                <div class="boxA-info">
+                                    <h4 class="boxA-title">Portfolio Website | Web Application</h4>
+                                    <p class="boxA-desc">
+                                        <span>Role: </span>Ankit Kumar Singh.(Developed all things.)<br />
+                                        <span>Description: </span>This project belongs to Personal portfolio Website.
+                                        Any people can visite the site
+                                        and see the academic,skills,certification and etc.<br />
+                                        <span>Technology:</span>Html, CSS, JavaScript, Firebase.<br />
+                                        <span>Links:</span><a
+                                            href="https://github.com/asgaddi07/ankitSingh"
+                                            target="_blank">GitHub Project Link</a><br />
+                                        <span>Host:</span><a href="https://asgaddi07.github.io/ankitSingh/"
+                                            target="_blank">Website Host</a><br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item End -->
+
+                        <!-- Item Start -->
+                        <div class="boxA-item padd-15">
+                            <div class="boxA-item-inner shadow-dark">
+                                <div class="boxA-info">
+                                    <h4 class="boxA-title">Electricity Billing System | Desktop Application</h4>
+                                    <p class="boxA-desc">
+                                        <span>Role: </span>Ankit Kumar Singh.(Work on Backend.)<br />
+                                        <span>Description: </span>The electricity supply company used the application
+                                        for manageing the meter and bills.
+                                        And people can pay their bill online.<br />
+                                        <span>Technology:</span>Java, Swing, Sql.<br />
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item End -->
+                    </div>
+                </div>
+            </section>
+            <!-- Project Section End -->
+
+            <!-- Contact Section Start -->
+            <section class="boxD section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact</h2>
+                        </div>
+                    </div>
+                    <!-- boxD Form -->
+                    <div class="row">
+                        <form  class="boxD-form padd-15" id="boxDUs">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name*" id="name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="emotherl" class="form-control" placeholder="Email*" id="emailid">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Phone*" id="phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea placeholder="Your Message*" class="form-control" cols="30" rows="10"
+                                            id="msgContent"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 padd-15">
+                                    <button type="submit" class="btn">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- boxD Form End -->
+                </div>
+            </section>
+            <!-- Contact Section End -->
         </div>
-    <section class="Personal Skills" id="Personal Skills">
-            <h1 class="head"><span>Personal Skills</span></h1>
-            <div>
-                <ul id="lis">
-                    <li>Decision Making.</li>
-                    <li>Management & Coordination.</li>
-                    <li>Team Leadership.</li>
-                    <li>Good at networking and interpersonal skills.</li>
-                    <li>Time Management and dependability/Able to work with deadlines.</li>
-                    <li>Good collaboration and co-ordination skills.</li>
-                    <li>Strategic Thinker/Able to work in a team/Focussed at work.</li> 
-                </ul>
-            </div>
-        </section>
-        <section class="Certification" id="Certification">
-            <h1 class="head"><span>Certification</span></h1>
-            <div>
-                <ul id="lis">
-                    <li><a href="https://drive.google.com/file/d/1j3iRX5Wm18Z6F8uYxVeXfin4iC5wtAA7/view?usp=sharing"
-                        target="_blank">Full-Stack Development Eourse, Kodnest.</a></li>
-                <li><a href="https://drive.google.com/file/d/1DklkZsWp7qzcwY_YBN1C56MKWs7N14pu/view?usp=sharing"
-                        target="_blank">Problem Solving With Data Structures & Algorithms, Chandigarh University.</a>
-                </li>
-                <li><a href="https://coursera.org/share/0bde7cc27328294671669ca56c63db87"
-                    target="_blank">Java Decision Programming, Coursera.</a>
-                </li>
-                <li><a href="https://coursera.org/share/b6c30435485499527340cb7df8a9e141"
-                        target="_blank">Programming Foundations with JavaScript, HTML and CSS, Coursera.</a>
-                </li>
-                <li><a href="https://trainings.internshala.com/s/v/59935/98a85829"
-                        target="_blank">Git and GitHub, Internsala.</a></li>
-                </ul>
-            </div>
-        </section>
-    </section>
-    </section>
-    <section class="Project" id="Project">
-        <h1 class="heading"><span>Project</span></h1>
-        <div class="Row">
-            <div class="det">
-                <h1 style="color: white;font-size: 2rem;">1.</h1><br>
-                <h3><span>Role: </span>Ankit Kumar Singh.(Developed all things.)</h3>
-                <h3><span>Title: </span>PORTFOLIO WEBSITE | WEB APPLICATION</h3>
-                <h3><span>Description: </span>This project belongs to Personal Portfolio Website. Any people can visite the site
-                    and see the academic,skills,certification and etc.</h3>
-                <h3><span>Technology:</span>Html, CSS, JavaScript, Firebase.</h3>
-                <h3><span>Links:</span><a href="https://github.com/asgaddi07/ankitSingh" target="_blank">GitHub Project Link</a></h3>
-                <h3><span>Host:</span><a href="https://asgaddi07.github.io/ankitSingh/" target="_blank">Website Host.</a></h3>
 
-            </div>
-            <div class="det">
-                <h1 style="color: white;font-size: 2rem;">2.</h1><br>
-                <h3><span>Role: </span>Ankit Kumar Singh.(Developed all things.)</h3>
-                <h3><span>Title: </span>ECOMMERCE WEBSITE | WEB APPLICATION</h3>
-                <h3><span>Description: </span>User can login/create account. And search their product for buying.
-                    Order the productes.
-                    The admin can add,edit,delete the product.</h3>
-                <h3><span>Technology:</span>Java, Html, CSS, JavaScript, BootStrap, Hibernate, Sql.</h3>
-                <h3><span>Links:</span><a href="https://github.com/asgaddi07/Ecommerce" target="_blank">GitHub Project Link</a></h3> 
+
+        <!-- Mothern Content End -->
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <div class="lightbox-close">&times;</div> 
+            <img alt="DisplayImage" class="lightbox-img" onclick="prevItem()">
+            <div class="lightbox-caption"> 
+                <div class="caption-text"></div> 
+                <div class="caption-counter"></div>
             </div>
         </div>
-    </section>
-    <section class="Extra Activity" id="Extra Activity">
-        <h1 class="head"><span>Extra Curricular & Co-Curricular Activity.</span></h1>
-        <div>
-            <ul id="lis">
-                <li>Participated in codeing Contests like codechef, etc.</li>
-            </ul>
+        <div class="lightbox-controls">
+            <div class="prev" onclick="prevItem()"><i class="fas fa-angle-left"></i></div>
+            <div class="next" onclick="nextItem()"><i class="fas fa-angle-right"></i></div>
         </div>
-    </section>
-    <br><br>
-    <section class="Contact Us" id="Contact Us">
-        <h1 class="head"><span>Contact Us.</span></h1>
-        <div class="Contact">
-            <form action="" id="ContactUs">
-                <div class="alert">Your message sent.</div>
+    </div>
+    <!-- Lightbox End -->
 
-                <div class="Fill">
-                    <input type="text" id="name" placeholder="Your name...." />
-                </div>
-
-                <div class="Fill">
-                    <input type="email" id="emailid" placeholder="Your Email....." />
-                </div>
-
-                <div class="Fill">
-                    <input type="text" id="phone" placeholder="Your Phone....." />
-                </div>
-
-                <div class="Fill">
-                    <textarea id="msgContent" cols="30" rows="10" placeholder="Message"></textarea>
-                </div>
-
-                <div class="Fill">
-                    <button type="submit" class="btn">Submit</button>
-                </div>
-            </form>
+    <!-- Live Style Switcher -->
+    <div class="style-switcher">
+        <div class="toggle-switcher">
+            <i class="fas fa-cog fa-spin"></i>
         </div>
-    </section>
-    <h1 style="color: purple; text-align: center;font-size: 4rem; ">@Thanks you.</h1><br>
+        <h5>Style Switcher</h5>
+        <ul>
+            <li><a href="javascript:void(0);" title="pink" style="background-color: #ec1839;"
+                    onclick="setActiveStyle('pink')"></a></li>
+            <li><a href="javascript:void(0);" title="blue" style="background-color: #2196F3;"
+                    onclick="setActiveStyle('blue')"></a></li>
+            <li><a href="javascript:void(0);" title="orange" style="background-color: #fa5b07;"
+                    onclick="setActiveStyle('orange')"></a></li>
+            <li><a href="javascript:void(0);" title="yellow" style="background-color: #ffb400;"
+                    onclick="setActiveStyle('yellow')"></a></li>
+            <li><a href="javascript:void(0);" title="green" style="background-color: #72b626;"
+                    onclick="setActiveStyle('green')"></a></li>
+        </ul>
+        <h4>Background Theme</h4>
+        <label>
+            <input type="radio" class="body-skin" name="body-style" value="light" checked="true">
+            Light
+        </label>
+        <label>
+            <input type="radio" class="body-skin" name="body-style" value="dark">
+            Dark
+        </label>
+    </div>
+    <!-- Live Style Switcher End -->
+
+
+    <!-- js --> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
-        <script src="/index.js"></script>
+    <script src="/index.js"></script> 
+
 </body>
 
 </html>
