@@ -1,6 +1,4 @@
-
  
-
 /* Certificate Item Filter */
 const filterContainer = document.querySelector(".boxC-filter"),
     filterBtns = filterContainer.children,
